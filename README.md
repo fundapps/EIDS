@@ -10,5 +10,5 @@ By agreeing on a global standard for disclosure of economic interests, the indus
 # Data Specification
 In progress
 
-# Data Specification
+# Examples
 [Example file](example.json)
