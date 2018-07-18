@@ -1,0 +1,12 @@
+{
+  "DisclosureId": "66071ef0-9dbe-46d0-a0b0-e5d238fc2683",
+  "Date": "2018-07-07",
+  "RuleCode": "MajorAR",
+  "Issuer": "Banco Argentino",
+  "Entity": "Hedge Fund Inc",
+  "EconomicInterest": "12.2",
+  "Assets": [
+    { "ID": "AR101", "Quantity": "100", "AssetClass": "Equity" },
+    { "ID": "AR102", "Quantity": "300", "AssetClass": "Option", "ContractSize": 100, "Delta": 0.5}, //All relevant asset/instrument/issuer properties
+  ]
+}
