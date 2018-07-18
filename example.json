@@ -7,6 +7,6 @@
   "EconomicInterest": "12.2",
   "Assets": [
     { "ID": "AR101", "Quantity": "100", "AssetClass": "Equity" },
-    { "ID": "AR102", "Quantity": "300", "AssetClass": "Option", "ContractSize": 100, "Delta": 0.5}, //All relevant asset/instrument/issuer properties
+    { "ID": "AR102", "Quantity": "300", "AssetClass": "Option", "ContractSize": 100, "Delta": 0.5},
   ]
 }
