@@ -2,8 +2,10 @@
   "DisclosureId": "66071ef0-9dbe-46d0-a0b0-e5d238fc2683",
   "Date": "2018-07-07",
   "RuleCode": "MajorAR",
-  "Issuer": "Banco Argentino",
-  "Entity": "Hedge Fund Inc",
+  "IssuerName": "Banco Argentino",
+  "IssuerLEI": "579100KKDDKIFCBKB036",
+  "EntityName": "UBS Life UK (World) Equity Tracker Fund",
+  "EntityLEI": "549300O1PQZ4A4JR5Y36",
   "EconomicInterest": "12.2",
   "Assets": [
     { "ID": "AR101", "Quantity": "100", "AssetClass": "Equity" },
