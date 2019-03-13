@@ -7,7 +7,7 @@ Word documents, Excel sheets, PDFs and even filling in Web forms is legacy techn
 By agreeing on a global standard for disclosure of economic interests, the industry can concentrate on generating alpha and let all the regulatory reporting be taken care of by technology.
 
 # Data Specification
-In progress
+[JSON Schema](specification.json)
 
 # Examples
 [Example file](example.json)
