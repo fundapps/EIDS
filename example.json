@@ -6,9 +6,9 @@
   "IssuerLEI": "579100KKDDKIFCBKB036",
   "EntityName": "UBS Life UK (World) Equity Tracker Fund",
   "EntityLEI": "549300O1PQZ4A4JR5Y36",
-  "EconomicInterest": "12.2",
+  "EconomicInterest": 12.2,
   "Assets": [
-    { "ID": "AR101", "Quantity": "100", "AssetClass": "Equity" },
-    { "ID": "AR102", "Quantity": "300", "AssetClass": "Option", "ContractSize": 100, "Delta": 0.5},
+    { "ISIN": "ARP125991090", "Quantity": "100", "AssetClass": "Equity" },
+    { "ISIN": "ARP125991091", "Quantity": "300", "AssetClass": "Option", "ContractSize": 100, "Delta": 0.5},
   ]
 }
