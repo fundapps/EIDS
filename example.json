@@ -4,8 +4,8 @@
   "RuleCode": "MajorAR",
   "IssuerName": "Banco Argentino",
   "IssuerLEI": "579100KKDDKIFCBKB036",
-  "Entity": "UBS Life UK (World) Equity Tracker Fund",
-  "EntityLEI": "549300O1PQZ4A4JR5Y36"
+  "EntityName": "UBS Life UK (World) Equity Tracker Fund",
+  "EntityLEI": "549300O1PQZ4A4JR5Y36",
   "EconomicInterest": "12.2",
   "Assets": [
     { "ID": "AR101", "Quantity": "100", "AssetClass": "Equity" },
