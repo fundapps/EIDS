@@ -8,6 +8,7 @@ By agreeing on a global standard for disclosure of economic interests, the indus
 
 # Data Specification
 [JSON Schema](specification.json)
+
 To validate an example file go to [https://www.jsonschemavalidator.net/](https://www.jsonschemavalidator.net/) and paste the specification in the left window.
 Paste any example file in the right window.
 
