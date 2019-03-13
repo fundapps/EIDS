@@ -1,0 +1,147 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "DisclosureId",
+    "Date",
+    "RuleCode",
+    "IssuerName",
+    "IssuerLEI",
+    "EntityName",
+    "EntityLEI",
+    "EconomicInterest",
+    "Assets"
+  ],
+  "properties": {
+    "DisclosureId": {
+      "$id": "#/properties/DisclosureId",
+      "type": "string",
+      "title": "The Disclosureid Schema",
+      "default": "",
+      "examples": [
+        "66071ef0-9dbe-46d0-a0b0-e5d238fc2683"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "Date": {
+      "$id": "#/properties/Date",
+      "type": "string",
+      "title": "The Date Schema",
+      "default": "",
+      "examples": [
+        "2018-07-07"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "RuleCode": {
+      "$id": "#/properties/RuleCode",
+      "type": "string",
+      "title": "The Rulecode Schema",
+      "default": "",
+      "examples": [
+        "MajorAR"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "IssuerName": {
+      "$id": "#/properties/IssuerName",
+      "type": "string",
+      "title": "The Issuername Schema",
+      "default": "",
+      "examples": [
+        "Banco Argentino"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "IssuerLEI": {
+      "$id": "#/properties/IssuerLEI",
+      "type": "string",
+      "title": "The Issuerlei Schema",
+      "default": "",
+      "examples": [
+        "579100KKDDKIFCBKB036"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "EntityName": {
+      "$id": "#/properties/EntityName",
+      "type": "string",
+      "title": "The Entityname Schema",
+      "default": "",
+      "examples": [
+        "UBS Life UK (World) Equity Tracker Fund"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "EntityLEI": {
+      "$id": "#/properties/EntityLEI",
+      "type": "string",
+      "title": "The Entitylei Schema",
+      "default": "",
+      "examples": [
+        "549300O1PQZ4A4JR5Y36"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "EconomicInterest": {
+      "$id": "#/properties/EconomicInterest",
+      "type": "string",
+      "title": "The Economicinterest Schema",
+      "default": "",
+      "examples": [
+        "12.2"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "Assets": {
+      "$id": "#/properties/Assets",
+      "type": "array",
+      "title": "The Assets Schema",
+      "items": {
+        "$id": "#/properties/Assets/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "ID",
+          "Quantity",
+          "AssetClass"
+        ],
+        "properties": {
+          "ID": {
+            "$id": "#/properties/Assets/items/properties/ID",
+            "type": "string",
+            "title": "The Id Schema",
+            "default": "",
+            "examples": [
+              "AR101"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "Quantity": {
+            "$id": "#/properties/Assets/items/properties/Quantity",
+            "type": "string",
+            "title": "The Quantity Schema",
+            "default": "",
+            "examples": [
+              "100"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "AssetClass": {
+            "$id": "#/properties/Assets/items/properties/AssetClass",
+            "type": "string",
+            "title": "The Assetclass Schema",
+            "default": "",
+            "examples": [
+              "Equity"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    }
+  }
+}
