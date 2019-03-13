@@ -19,7 +19,7 @@
     "DisclosureId": {
       "$id": "#/properties/DisclosureId",
       "type": "string",
-      "title": "The Disclosureid Schema",
+      "title": "Unique ID of the Disclosure",
       "default": "",
       "examples": [
         "66071ef0-9dbe-46d0-a0b0-e5d238fc2683"
@@ -29,7 +29,7 @@
     "Date": {
       "$id": "#/properties/Date",
       "type": "string",
-      "title": "The Date Schema",
+      "title": "The Date the Disclosure was triggered",
       "default": "",
       "examples": [
         "2018-07-07"
@@ -39,7 +39,7 @@
     "RuleCode": {
       "$id": "#/properties/RuleCode",
       "type": "string",
-      "title": "The Rulecode Schema",
+      "title": "The name of the rule being disclosed",
       "default": "",
       "examples": [
         "MajorAR"
@@ -49,7 +49,7 @@
     "IssuerName": {
       "$id": "#/properties/IssuerName",
       "type": "string",
-      "title": "The Issuername Schema",
+      "title": "The name of the company being disclosed in",
       "default": "",
       "examples": [
         "Banco Argentino"
@@ -59,7 +59,7 @@
     "IssuerLEI": {
       "$id": "#/properties/IssuerLEI",
       "type": "string",
-      "title": "The Issuerlei Schema",
+      "title": "The LEI of the company being disclosed in. Leave blank if unanavailable",
       "default": "",
       "examples": [
         "579100KKDDKIFCBKB036"
@@ -69,7 +69,7 @@
     "EntityName": {
       "$id": "#/properties/EntityName",
       "type": "string",
-      "title": "The Entityname Schema",
+      "title": "The name of the disclosing entity",
       "default": "",
       "examples": [
         "UBS Life UK (World) Equity Tracker Fund"
@@ -79,7 +79,7 @@
     "EntityLEI": {
       "$id": "#/properties/EntityLEI",
       "type": "string",
-      "title": "The Entitylei Schema",
+      "title": "The LEI of the disclosing entity. Leave blank if unavailable",
       "default": "",
       "examples": [
         "549300O1PQZ4A4JR5Y36"
@@ -88,11 +88,11 @@
     },
     "EconomicInterest": {
       "$id": "#/properties/EconomicInterest",
-      "type": "string",
-      "title": "The Economicinterest Schema",
+      "type": "number",
+      "title": "The economic interest of the disclosing entity in the company (0 - 100)",
       "default": "",
       "examples": [
-        "12.2"
+        12.2
       ],
       "pattern": "^(.*)$"
     },
@@ -105,25 +105,25 @@
         "type": "object",
         "title": "The Items Schema",
         "required": [
-          "ID",
+          "ISIN",
           "Quantity",
           "AssetClass"
         ],
         "properties": {
-          "ID": {
+          "ISIN": {
             "$id": "#/properties/Assets/items/properties/ID",
             "type": "string",
-            "title": "The Id Schema",
+            "title": "Identifier for the Asset",
             "default": "",
             "examples": [
-              "AR101"
+              "ARP125991090"
             ],
             "pattern": "^(.*)$"
           },
           "Quantity": {
             "$id": "#/properties/Assets/items/properties/Quantity",
             "type": "string",
-            "title": "The Quantity Schema",
+            "title": "The Quantity held",
             "default": "",
             "examples": [
               "100"
@@ -133,7 +133,7 @@
           "AssetClass": {
             "$id": "#/properties/Assets/items/properties/AssetClass",
             "type": "string",
-            "title": "The Assetclass Schema",
+            "title": "The Asset class",
             "default": "",
             "examples": [
               "Equity"
